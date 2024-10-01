@@ -19,3 +19,5 @@
 
   
  Importante: Se comento los tags de StrictMode en Main.jsx, esto para evitar la verifición doble y asi el comando prompt() no se ejecute dos veces.
+
+ - Al ejecutar la pagina aparecera en blanco, las funciones estan comentadas para un mayor orden, solo hay que descomentar para visualizar los resultados.
