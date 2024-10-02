@@ -5,17 +5,16 @@ import "./App.css";
 
 //Primer punto
 
-function saludo() {
+function Saludo() {
   const nombre = prompt("Digita tu nombre: ");
   return <h2>Bienvenido {nombre}</h2>;
 }
 
-//export default saludo;
 
 
 
 //Segundo punto
-function saludoMod() {
+function SaludoMod() {
   const nombre = prompt("Digita tu nombre: ");
 
   const traduccion = {
@@ -34,7 +33,6 @@ function saludoMod() {
   );
 }
 
-//export default saludoMod;
 
 
 
@@ -56,7 +54,6 @@ function Contenedor() {
   );
 }
 
-//export default Contenedor;
 
 
 
@@ -83,4 +80,5 @@ function ContadorState() {
   );
 }
 
-export { saludo, saludoMod, Contenedor, ContadorState };
+export { Saludo, SaludoMod, Contenedor, ContadorState };
+export default Saludo;
