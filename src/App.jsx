@@ -81,4 +81,3 @@ function ContadorState() {
 }
 
 export { Saludo, SaludoMod, Contenedor, ContadorState };
-export default Saludo;
